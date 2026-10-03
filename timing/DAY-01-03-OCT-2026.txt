@@ -1,0 +1,4 @@
+2 hours - EC2 to Github
+1 hour - MCP Architecture
+10 minutes - Coding Practice 
+
