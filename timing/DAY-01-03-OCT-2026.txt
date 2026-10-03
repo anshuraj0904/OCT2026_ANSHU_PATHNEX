@@ -2,3 +2,5 @@
 1 hour - MCP Architecture
 10 minutes - Coding Practice 
 30 minutes - Agentic AI
+
+# Dummy line to streamline the branches
