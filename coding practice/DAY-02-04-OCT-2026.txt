@@ -17,7 +17,7 @@
            state: started
            enabled: yes
 
-Terraform- EC2 with tags (r5.2xlarge)
+# Terraform- EC2 with tags (r5.2xlarge)
 provider "aws" {
       region="us-east-1"
 }
