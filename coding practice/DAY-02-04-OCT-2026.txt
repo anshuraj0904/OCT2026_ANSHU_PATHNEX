@@ -12,7 +12,7 @@
          state: present
 
     - name: Enable nginx
-       service:
+      service:
            name: nginx
            state: started
            enabled: yes
@@ -68,6 +68,6 @@ docker images
 docker ps -a
 
 # Docker File
-from Ubuntu:22.04
+FROM ubuntu:22.04
 RUN apt update
 CMD ["echo", "Hello Pathnex"]
