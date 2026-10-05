@@ -11,7 +11,7 @@
          state: present
 
     - name: Start apache
-         service:
+      service:
             name: httpd
             state: started
             enabled: yes
@@ -45,7 +45,8 @@ spec:
           app: pathnex-app
    template:
        metadata:
-          labels: pathnex-app
+          labels:
+            app: pathnex-app
        spec: 
           containers:
              - name: app
@@ -63,7 +64,7 @@ echo "Current User Groups: $(groups)"
 
 # Dockerfile for nginx web server
 FROM nginx:latest
-copy index.html /usr/share/nginx/html/index.html
+COPY index.html /usr/share/nginx/html/index.html
 
 
 # HTML
@@ -77,4 +78,4 @@ copy index.html /usr/share/nginx/html/index.html
 
 # Bash
 docker build -t pathnex-nginx .
-docker run -d -p 80:80 pathnex
+docker run -d -p 80:80 pathnex-nginx
