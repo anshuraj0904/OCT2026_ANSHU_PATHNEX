@@ -1,0 +1,3 @@
+2 hours - Git Lecture
+2 Hours - Shell Scripting
+1 hour - MCP 
