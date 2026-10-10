@@ -1,0 +1,3 @@
+# 2 hours - Git
+# 1 hour - MCP
+# 2 hours - AWS 
