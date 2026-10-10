@@ -1,0 +1,4 @@
+4 hours - AWS Lectures
+1 hour - AWS Notes
+1 hour - MCP
+1 hour - C++
