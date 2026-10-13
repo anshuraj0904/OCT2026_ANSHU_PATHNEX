@@ -1,0 +1,4 @@
+# 3 hours - AWS
+# 1 hour - MCP
+# 2 hours - C++
+# 1 hour - Agentic AI
