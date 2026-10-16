@@ -1,0 +1,2 @@
+# 1 hour - Dcker
+# 2 hours - Kubernetes
